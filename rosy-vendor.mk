@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
-    vendor/xiaomi/rosy/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
     vendor/xiaomi/rosy/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/xiaomi/rosy/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
     vendor/xiaomi/rosy/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
@@ -130,19 +129,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/firmware/rampatch_tlv_1.3.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_1.3.tlv \
     vendor/xiaomi/rosy/proprietary/vendor/firmware/rampatch_tlv_2.1.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_2.1.tlv \
     vendor/xiaomi/rosy/proprietary/vendor/firmware/rampatch_tlv_3.0.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_3.0.tlv \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/hw/camera.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8953.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libkeymaster1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster1.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_memory_allocator.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libmorpho_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_panorama.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libkeymaster1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster1.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib64/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_memory_allocator.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib64/libmorpho_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_panorama.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libChamomilePA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libChamomilePA.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libFaceGrade.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceGrade.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libXMFD_AgeGender.so:$(TARGET_COPY_OUT_VENDOR)/lib/libXMFD_AgeGender.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/lib_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_lowlight.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libactuator_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5816g.so \
@@ -166,10 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libactuator_ovt_ov12a10_i_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ovt_ov12a10_i_dw9763.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libactuator_pseudo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_pseudo.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libarcsoft_beauty_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beauty_shot.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libarcsoft_beautyshot_image_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot_image_algorithm.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libarcsoft_beautyshot_video_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot_video_algorithm.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libcaffe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcaffe.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_csidtg_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_common.so \
@@ -1901,13 +1886,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libmmsw_detail_enhancement.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmsw_detail_enhancement.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libmmsw_math.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmsw_math.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libmmsw_opencl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmsw_opencl.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libmmsw_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmsw_platform.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libmorpho_easy_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_easy_hdr.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libmorpho_hdr_checker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_hdr_checker.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libmorpho_panorama_gp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_panorama_gp.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
@@ -1930,7 +1908,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_dbg.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib64/libmorpho_panorama_gp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_panorama_gp.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvePanorama.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvePanorama_lite.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/mmi_fingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mmi_fingerprint.so
@@ -1959,6 +1936,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/xiaomi/rosy/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/xiaomi/rosy/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/xiaomi/rosy/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/rosy/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/rosy/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/rosy/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
@@ -2067,6 +2045,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
     vendor/xiaomi/rosy/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
     vendor/xiaomi/rosy/proprietary/vendor/firmware/tas2557_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2557_uCDSP.bin \
+    vendor/xiaomi/rosy/proprietary/vendor/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_VENDOR)/framework/QtiTelephonyServicelibrary.jar \
+    vendor/xiaomi/rosy/proprietary/vendor/framework/qcrilhook.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qcrilhook.jar \
     vendor/xiaomi/rosy/proprietary/vendor/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qti-vzw-ims-internal.jar \
     vendor/xiaomi/rosy/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0_vendor.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so \
@@ -2453,7 +2433,4 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     QtiTelephonyService \
     TimeService \
-    qcrilmsgtunnel \
-    qti-telephony-common \
-    QtiTelephonyServicelibrary \
-    qcrilhook
+    qcrilmsgtunnel
